@@ -5,7 +5,7 @@ var y; //Y position.
 var gravity; //Basically Y velocity, or vx.
 
 function setup() {
-    player = loadImage("/Sprites/Entities/Player.png");
+  player = loadImage("/Sprites/Entities/Player.png");
   ground1 = loadImage("/Sprites/World/Ground1.png");
   x = 200;
   y = 200;
